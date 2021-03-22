@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.inria.sacha.automaticRepair</groupId>
+	<artifactId>AstorMoth</artifactId>
+	<version>1.1.0</version>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<github.global.server>github</github.global.server>
+	</properties>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.inria.sacha.automaticRepair/astor -->
+		<dependency>
+			<groupId>org.inria.sacha.automaticRepair</groupId>
+			<artifactId>astor</artifactId>
+			<version>1.1.0</version>
+			
+		</dependency>
+
+
+		<dependency>
+			<groupId>fr.inria.gforge.spirals</groupId>
+			<artifactId>nopol</artifactId>
+			<version>0.2-SNAPSHOT</version>
+		</dependency>
+
+	</dependencies>
+</project>
